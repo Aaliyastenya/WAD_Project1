@@ -5,14 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV AALIYA</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+        }
+        h2 {
+            color: #007acc;
+        }
+        hr {
+            border: 2px solid #007acc;
+            margin: 20px 0;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border: 5px solid #007acc;
+            border-radius: 50%;
+            max-width: 150px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007acc;
+            color: white;
+        }
+        p {
+            margin: 10px 0;
+        }
+        p.email {
+            font-weight: bold;
+        }
+        .character {
+            width: 80%;
+            margin: 20px auto;
+        }
+        button {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #005eaa;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-media img {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            transition: transform 0.3s;
+        }
+        .social-media img:hover {
+            transform: scale(1.2);
+        }
+    </style>
 </head>
 <body>
-    <h1 align="center">
-        CV ONLINE
-    </h1>
-    <br>
-    <img src="gambar.png" alt="gambarAaliya" width="15%" height="15%" align="center" > 
-    <br>   
+    <h1>CV ONLINE</h1>
+    <img src="gambar.png" alt="gambarAaliya">
     <hr>
 
     <!-- Biodata Singkat -->
@@ -20,12 +99,12 @@
     <p>Nama: Aaliya Stenya Sekaton</p>
     <p>Tanggal Lahir: 23 Maret 2002</p>
     <p>Alamat: Jl. Sukabirus</p>
-    <p>Email: aaliyastenya@gmail.com</p>
+    <p class="email">Email: aaliyastenya@gmail.com</p>
 
     <!-- Tabel Riwayat Pendidikan -->
     <hr>
     <h2>Riwayat Pendidikan</h2>
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>Tingkat Pendidikan</th>
@@ -74,6 +153,29 @@
         <button type="button">Resume</button>
     </a>
 
+</body>
+</html>
 
+    <!-- Paragraf tentang Karakter Anda -->
+    <br>
+    <hr>
+    <h2>Karakter Saya</h2>
+    <p>Saya adalah seseorang yang tekun, berkomitmen, dan suka belajar hal baru. Saya memiliki kemampuan beradaptasi yang baik dan senang bekerja dalam tim. Saya selalu berusaha memberikan yang terbaik dalam setiap tugas dan memiliki semangat untuk mencapai tujuan. Saya memiliki ketertarikan di bidang UI/UX dan Data Analyst</p>
+
+    <!-- Tombol Resume -->
+    <h2>Akes File CV</h2>
+    <a href="File CV.pdf" download>
+        <button type="button">Resume</button>
+    </a>
+
+    <!-- Social Media -->
+    <div class="social-media">
+        <a href="http://instagram.com/aaliyastny" target="_blank">
+            <img src="logo IG.png">
+        </a>
+        <a href="www.linkedin.com/in/aaliyastenya" target="_blank">
+            <img src="logo Linkedin.png">
+        </a>
+    </div>
 </body>
 </html>
